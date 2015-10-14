@@ -1,4 +1,7 @@
 *.class
+*.xml
+*.properties
+*.mf
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -57,5 +60,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-/HelloWorldApp/nbproject/private/
+/HelloWorldApp/nbproject/
 /HelloWorldApp/build/
