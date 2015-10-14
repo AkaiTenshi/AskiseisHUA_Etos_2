@@ -57,3 +57,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/HelloWorldApp/nbproject/private/
+/HelloWorldApp/build/
