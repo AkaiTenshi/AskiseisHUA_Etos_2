@@ -20,12 +20,12 @@ public class HelloWorldApp {
          * eksupni wste na gnorizei pou einai (arkei na 
          * vriskontai sto idio paketo)
         */
-        Human Chris = new Human(19, "Chris", true);
-        /*
+        Human Chris = new Human();
+        
         Chris.age = 19;
         Chris.name = "Chris";
         Chris.alive = true;
-        */
+        
         System.out.println(Chris.age); //Edw perimenoume 19
         
         Chris.increaseAge();
