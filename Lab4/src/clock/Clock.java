@@ -46,8 +46,8 @@ public class Clock {
     
     //Constructor 3
     public Clock(int _Hour, int _Min, int _alarmHour, int _alarmMin){
-        hour = new NumberDisplay(0, 24);                
-        min = new NumberDisplay(0, 60);        
+        hour = new NumberDisplay(_Hour, 24);                
+        min = new NumberDisplay(_Min, 60);        
         alarmHour = new NumberDisplay(_alarmHour, 24);         
         alarmMin = new NumberDisplay(_alarmMin, 60);        
         name = "";        
